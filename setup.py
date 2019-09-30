@@ -17,6 +17,12 @@ setup(
     install_requires=(
         'stringcase',
     ),
+    setup_requires=(
+        'pytest-runner',
+    ),
+    tests_require=(
+        'pytest-cov',
+    ),
     classifiers=[
         'Development Status :: 1 - Alpha',
         'Natural Language :: English',
