@@ -1,6 +1,4 @@
-from setuptools import find_namespace_packages, setup
-
-packages = [package for package in find_namespace_packages(where='./src', include='package_cheat_sheet.*')]
+from setuptools import find_packages, setup
 
 setup(
     name='python-package-cheat-sheet',
@@ -9,7 +7,7 @@ setup(
     author_email='you@yourdomain.com',
     description='Python package developer\'s cheat sheet',
     platforms='Posix; MacOS X; Windows',
-    packages=packages,
+    packages=find_packages(where='./src'),
     package_dir={
         '': 'src'
     },
