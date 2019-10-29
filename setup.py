@@ -22,7 +22,7 @@ setup(
         'pytest-cov',
     ),
     classifiers=[
-        'Development Status :: 1 - Alpha',
+        'Development Status :: 3 - Alpha',
         'Natural Language :: English',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.6',
