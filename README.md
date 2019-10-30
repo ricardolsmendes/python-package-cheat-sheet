@@ -16,9 +16,6 @@ declaratively. Properties declared in this file are recognized by package manage
 - `setup.cfg`: used to customize setup scripts, such as setting `pytest` as the default runner for
 `python setup.py test` command. 
 
-- `pytest.ini`: contains parameters for `pytest` execution. For example, presenting coverage results both in the
-console and HTML files.
-
 - `.coveragerc`: controls the coverage script scope. This is pretty useful when you have folders in your project that
 don’t need to be monitored by the tool. In the proposed clean structure, only the `src` folder needs to be covered. 
 
