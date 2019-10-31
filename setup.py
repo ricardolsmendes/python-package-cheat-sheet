@@ -1,13 +1,13 @@
-from setuptools import find_packages, setup
+import setuptools
 
-setup(
+setuptools.setup(
     name='python-package-cheat-sheet',
     version='1.0.0',
     author='Your Name',
     author_email='you@yourdomain.com',
     description='Python package developer\'s cheat sheet',
     platforms='Posix; MacOS X; Windows',
-    packages=find_packages(where='./src'),
+    packages=setuptools.find_packages(where='./src'),
     package_dir={
         '': 'src'
     },
