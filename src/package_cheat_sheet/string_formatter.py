@@ -19,7 +19,8 @@ class StringFormatter:
         normalized_str = unicodedata.normalize('NFKD', string).encode('ASCII', 'ignore').decode()
         normalized_str = re.sub(r'[^a-zA-Z0-9]+', ' ', normalized_str)
         normalized_str = normalized_str.strip()
-        normalized_str = normalized_str.lower() if (' ' in normalized_str) or (normalized_str.isupper()) \
+        normalized_str = normalized_str.lower() \
+            if (' ' in normalized_str) or (normalized_str.isupper()) \
             else stringcase.camelcase(normalized_str)  # FooBarBaz => fooBarBaz
 
         return stringcase.snakecase(normalized_str)  # foo-bar-baz => foo_bar_baz
