@@ -1,6 +1,7 @@
 import re
-import stringcase
 import unicodedata
+
+import stringcase
 
 
 class StringFormatter:
