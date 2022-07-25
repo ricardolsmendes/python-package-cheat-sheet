@@ -4,6 +4,7 @@ Notes &amp; thoughts on clean Python package design.
 
 [![license](https://img.shields.io/github/license/ricardolsmendes/python-package-cheat-sheet.svg)](https://github.com/ricardolsmendes/python-package-cheat-sheet/blob/master/LICENSE)
 [![issues](https://img.shields.io/github/issues/ricardolsmendes/python-package-cheat-sheet.svg)](https://github.com/ricardolsmendes/python-package-cheat-sheet/issues)
+[![continuous integration](https://github.com/ricardolsmendes/python-package-cheat-sheet/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/ricardolsmendes/python-package-cheat-sheet/actions/workflows/continuous-integration.yaml)
 
 ## Get to know the concepts behind this code
 
